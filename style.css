@@ -1,0 +1,48 @@
+@font-face{
+    font-family: VCR;
+    src:url(fonts/VCR_OSD_MONO_1.001.ttf);
+}
+
+h1{
+    color: white;
+    margin: 50px;
+    font-family: VCR;
+    text-align: center;
+    margin: 300px 0 0 0;
+}
+
+h3{
+    color: white;
+    font-family: VCR;
+    text-align: left;
+}
+
+body{
+    background: black;
+}
+
+ul{
+    color: white;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: VCR;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(185, 121, 121);
+}
+
