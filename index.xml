@@ -17,7 +17,20 @@
       <pubDate>Tue, 05 Nov 2019 11:06:55 +0100</pubDate>
       
       <guid>http://example.org/algorithms/hugo-git/</guid>
-      <description>Hvad er poiten? Vi vil gerne have vores HUGO site op på github, mest for os selv sådan vi kan få en fuld kopi af vores kildekode hvad end der sker - MEN, vi kunne også tænke os en live version af siden, en statisk version af samme hjemmeside. Til det kan vi bruge GITHUB pages, gratis hosting af html filer fra Github til et domaine. Siden Hele vores HUGO server / side er en generator og en server i sig selv, kan vi ikke blot uploade den til GITHUB pages (eftersom den kun fatter html og css (og ikke kan køre en server)) Hvordan fungere det?</description>
+      <description>Hvad er poiten? Poiten er altså at vi bruger GITHUB pages for at folk skal kunne se vores hjemmeside (uden vi betaler), hurtigt, nemt, og fra overalt. Hvordan fungere det? Vi vil gerne have vores HUGO site op på github, mest for os selv sådan vi kan få en fuld kopi af vores kildekode hvad end der sker - MEN, vi kunne også tænke os en live version af siden, en statisk version af samme hjemmeside.</description>
+    </item>
+    
+    <item>
+      <title>Nogetsejt</title>
+      <link>http://example.org/posts/nogetsejt/</link>
+      <pubDate>Tue, 05 Nov 2019 11:06:55 +0100</pubDate>
+      
+      <guid>http://example.org/posts/nogetsejt/</guid>
+      <description>1234 jeg en tommelfinger kriger
+koden skal ind her koden skal ind her koden skal ind her
+sådan virker æ __ __ ddd
+*** *** ARHHHHHHHHHHHHH
+ Test1  Test2  Test3   Test 2   fffff ddddd 66666   Andreas er den pæneste jeg har set i hele mit liv, og kan slet ikke kontrollere mig selv når jeg er tæt på ham - Kasper Lort</description>
     </item>
     
     <item>
@@ -54,6 +67,15 @@
       
       <guid>http://example.org/algorithms/p5-sorting/</guid>
       <description>  Sorting Array      body {padding: 0; margin: 0;} canvas {vertical-align: top;}      </description>
+    </item>
+    
+    <item>
+      <title>Avavavav</title>
+      <link>http://example.org/posts/my-first-post-copy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/my-first-post-copy/</guid>
+      <description>Min største frygt er at se kasper i min fritid Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus efficitur tristique mi et fermentum. Mauris tempus leo nulla, vel feugiat nisi commodo vel. Suspendisse velit purus, pretium vitae accumsan a, convallis dictum diam. Proin finibus semper diam nec vulputate. Praesent pellentesque iaculis fermentum. Phasellus nec neque a elit dignissim iaculis. Aenean mollis est dolor, sed rhoncus ante congue quis. Curabitur gravida urna et augue lacinia, nec facilisis diam molestie.</description>
     </item>
     
   </channel>
