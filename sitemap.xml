@@ -8,6 +8,26 @@
   </url>
   
   <url>
+    <loc>http://example.org/algorithms/hugo-git/</loc>
+    <lastmod>2019-11-05T11:06:55+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2019-11-05T11:06:55+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/algorithms/search/</loc>
+    <lastmod>2019-11-05T11:06:55+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/algorithms/sorting/</loc>
+    <lastmod>2019-11-05T11:06:55+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://example.org/algorithms/p5-search/</loc>
     <priority>0</priority>
   </url>
@@ -19,10 +39,6 @@
   
   <url>
     <loc>http://example.org/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/</loc>
   </url>
   
   <url>
