@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Algorithms on Jeg har lige unlocked gold camo i cod mw</title>
-    <link>http://example.org/Algorithms/</link>
-    <description>Recent content in Algorithms on Jeg har lige unlocked gold camo i cod mw</description>
+    <title>Systems on Jeg har lige unlocked gold camo i cod mw</title>
+    <link>http://example.org/systems/</link>
+    <description>Recent content in Systems on Jeg har lige unlocked gold camo i cod mw</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 05 Nov 2019 11:06:55 +0100</lastBuildDate>
     
-	<atom:link href="http://example.org/algorithms/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/systems/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HUGO PUBLIC &amp; CONTENT GIT</title>
-      <link>http://example.org/Algorithms/hugo-git/</link>
+      <link>http://example.org/systems/hugo-git/</link>
       <pubDate>Tue, 05 Nov 2019 11:06:55 +0100</pubDate>
       
-      <guid>http://example.org/Algorithms/hugo-git/</guid>
+      <guid>http://example.org/systems/hugo-git/</guid>
       <description>Hvad er poiten? Poiten er altså at vi bruger GITHUB pages for at folk skal kunne se vores hjemmeside (uden vi betaler), hurtigt, nemt, og fra overalt. Hvordan fungere det? Vi vil gerne have vores HUGO site op på github, mest for os selv sådan vi kan få en fuld kopi af vores kildekode hvad end der sker - MEN, vi kunne også tænke os en live version af siden, en statisk version af samme hjemmeside.</description>
     </item>
     
     <item>
       <title>P5 SEARCH ALGORITHM</title>
-      <link>http://example.org/Algorithms/search/</link>
+      <link>http://example.org/systems/search/</link>
       <pubDate>Tue, 05 Nov 2019 11:06:55 +0100</pubDate>
       
-      <guid>http://example.org/Algorithms/search/</guid>
+      <guid>http://example.org/systems/search/</guid>
       <description>Hvordan virker det hele så? Kode SE LIVE DEMO HER &amp;#39;use strict&amp;#39; let Arr = []; let size = 10; let Search = 5; let SearchResult = 0; let b = 0; function PushArray(){ for(var i = 0; i &amp;lt; size;i++){ b = i; b += round(random(1,10)); Arr.push(b); } } // Linær Søgning function LiSearchArray(){ for(var i = 0; i &amp;lt; Arr.length; i++){ if(Search == Arr[i]){ SearchResult = 1; console.log(&amp;#39;Is &amp;#34;&amp;#39; + Search + &amp;#39;&amp;#34; in array?</description>
     </item>
     
     <item>
       <title>P5 SORTING ALGORITHM</title>
-      <link>http://example.org/Algorithms/sorting/</link>
+      <link>http://example.org/systems/sorting/</link>
       <pubDate>Tue, 05 Nov 2019 11:06:55 +0100</pubDate>
       
-      <guid>http://example.org/Algorithms/sorting/</guid>
+      <guid>http://example.org/systems/sorting/</guid>
       <description>graph TD A[INPUT ARR] --&amp;gt; B(Round) B[LOOP START] --&amp;gt; C{Decision} C[RUN UNTILL ARRAY LENGHT] --&amp;gt; D[Result 1] D[MAKE FIRST CHOICE COPY TEMP] --&amp;gt; E E[ASS] Shuffle array. Her ser vi et flowchart over hvad min kode gør, først og fremmest har vi hele funktionen (Handlingen) i et loop indtil at vores tæller har talt op til rækkens længde (Den plusser en til hver runde). Herefter tager min kode det sidste nummer i rækken, og gemmer det til side, vi kan kalde det L (det bliver et tal mindre efter hver runde), efter det regner den et tilfældigt tal sammen mellem vores rækkes laveste til højeste.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://example.org/Algorithms/p5-search/</link>
+      <link>http://example.org/systems/p5-search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/Algorithms/p5-search/</guid>
+      <guid>http://example.org/systems/p5-search/</guid>
       <description>  Search Array      body {padding: 0; margin: 0;} canvas {vertical-align: top;}      </description>
     </item>
     
     <item>
       <title></title>
-      <link>http://example.org/Algorithms/p5-sorting/</link>
+      <link>http://example.org/systems/p5-sorting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/Algorithms/p5-sorting/</guid>
+      <guid>http://example.org/systems/p5-sorting/</guid>
       <description>  Sorting Array      body {padding: 0; margin: 0;} canvas {vertical-align: top;}      </description>
     </item>
     
