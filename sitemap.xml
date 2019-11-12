@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/algorithms/</loc>
+    <loc>http://example.org/algorithms2/</loc>
     <lastmod>2019-11-05T11:06:55+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/algorithms/hugo-git/</loc>
+    <loc>http://example.org/algorithms2/hugo-git/</loc>
     <lastmod>2019-11-05T11:06:55+01:00</lastmod>
   </url>
   
@@ -23,12 +23,12 @@
   </url>
   
   <url>
-    <loc>http://example.org/algorithms/search/</loc>
+    <loc>http://example.org/algorithms2/search/</loc>
     <lastmod>2019-11-05T11:06:55+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/algorithms/sorting/</loc>
+    <loc>http://example.org/algorithms2/sorting/</loc>
     <lastmod>2019-11-05T11:06:55+01:00</lastmod>
   </url>
   
@@ -38,12 +38,12 @@
   </url>
   
   <url>
-    <loc>http://example.org/algorithms/p5-search/</loc>
+    <loc>http://example.org/algorithms2/p5-search/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/algorithms/p5-sorting/</loc>
+    <loc>http://example.org/algorithms2/p5-sorting/</loc>
     <priority>0</priority>
   </url>
   
