@@ -11,20 +11,20 @@
     <title>HUGO PUBLIC &amp; CONTENT GIT :: Jeg har lige unlocked gold camo i cod mw</title>
 
     
-    <link href="/css/nucleus.css?1573639553" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1573639553" rel="stylesheet">
-    <link href="/css/hybrid.css?1573639553" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1573639553" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1573639553" rel="stylesheet">
-    <link href="/css/auto-complete.css?1573639553" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1573639553" rel="stylesheet">
-    <link href="/css/theme.css?1573639553" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1573639553" rel="stylesheet">
+    <link href="/css/nucleus.css?1573715328" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1573715328" rel="stylesheet">
+    <link href="/css/hybrid.css?1573715328" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1573715328" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1573715328" rel="stylesheet">
+    <link href="/css/auto-complete.css?1573715328" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1573715328" rel="stylesheet">
+    <link href="/css/theme.css?1573715328" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1573715328" rel="stylesheet">
     
-      <link href="/css/theme-red.css?1573639553" rel="stylesheet">
+      <link href="/css/theme-red.css?1573715328" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1573639553"></script>
+    <script src="/js/jquery-3.3.1.min.js?1573715328"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -64,14 +64,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1573639553"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1573639553"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1573715328"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1573715328"></script>
 <script type="text/javascript">
     
         var baseurl = "http:\/\/example.org\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1573639553"></script>
+<script type="text/javascript" src="/js/search.js?1573715328"></script>
 
     
   </div>
@@ -379,90 +379,26 @@
 
 
 
-<h3>Hvad er poiten?</h3>
-Poiten er altså at vi bruger GITHUB pages for at folk skal kunne se vores hjemmeside (uden vi betaler), hurtigt, nemt, og fra overalt.
+<p><h3>Hvad er poiten?</h3>
+Poiten er altså at vi bruger GITHUB pages for at folk skal kunne se vores hjemmeside (uden vi betaler), hurtigt, nemt, og fra overalt.</p>
 
-<h3>Hvordan fungere det?</h3>
-Vi vil gerne have vores HUGO site op på github, mest for os selv sådan vi kan få en fuld kopi af vores kildekode hvad end der sker - MEN, vi kunne også tænke os en live version af siden, en statisk version af samme hjemmeside. Til det kan vi bruge GITHUB pages, gratis hosting af html filer fra Github til et domaine. Siden Hele vores HUGO server / side er en generator og en server i sig selv, kan vi ikke blot uploade den til GITHUB pages (eftersom den kun fatter html og css (og ikke kan køre en server)).
+<p><h3>Hvordan fungere det?</h3>
+Vi vil gerne have vores HUGO site op på github, mest for os selv sådan vi kan få en fuld kopi af vores kildekode hvad end der sker - MEN, vi kunne også tænke os en live version af siden, en statisk version af samme hjemmeside. Til det kan vi bruge GITHUB pages, gratis hosting af html filer fra Github til et domaine. Siden Hele vores HUGO server / side er en generator og en server i sig selv, kan vi ikke blot uploade den til GITHUB pages (eftersom den kun fatter html og css (og ikke kan køre en server)).</p>
 
-```mermaid
-graph TD
-A[INPUT ARR] --> B(Round)
-B[LOOP START] --> C{Decision}
-C[RUN UNTILL ARRAY LENGHT] --> D[Result 1]
-D[MAKE FIRST CHOICE COPY TEMP] --> E
-E[ASS]
-```
+<p><h3>Hvordan gør man?</h3>
+Man har sådan set sat to repositories op, en til vores server, og en til vores statiske side. Hugo har en funktion der netop gør det nemt for os, så alt vi skal gøre for at få en offline og ren html - css side, er at skrive hugo i terminalen mens vi er i mappen. Så generere den en mappe kaldet PUBLIC, i vores server, hvor alt html er i. Det er mappen PUBLIC vi skal sync til github. Vores public repository skal man sætte op som en github page, altså navnet på vores repo er brugernavn.github.io, og aktiveret gennem github&rsquo;s side.</p>
 
-<h3>Kode</h3>
+<p>Når det er gjordt, burde man kunne se en version af sin hjemmeside på sin github page aka. brugernavn.github.io, samt man skal kunne se hele sine server filer i et andet repository fra Github.</p>
 
-<p>SE LIVE DEMO <a href="content/algorithms/P5-sorting/" title="TRYK">HER</a>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"> <span style="color:#e6db74">&#39;use strict&#39;</span>;
-
-<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">Arr</span> <span style="color:#f92672">=</span> [];
-<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">size</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">11</span>
-<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">fr</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>;
-
-<span style="color:#75715e">// Fill my Array
-</span><span style="color:#75715e"></span><span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">size</span>;<span style="color:#a6e22e">i</span><span style="color:#f92672">++</span>){
-  <span style="color:#a6e22e">Arr</span>.<span style="color:#a6e22e">push</span>((<span style="color:#a6e22e">i</span><span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>)<span style="color:#f92672">*</span><span style="color:#ae81ff">10</span>);
-}
-
-<span style="color:#66d9ef">function</span> <span style="color:#a6e22e">Visualize</span>(){
-  <span style="color:#a6e22e">translate</span>(<span style="color:#ae81ff">0</span>,(<span style="color:#a6e22e">height</span><span style="color:#f92672">/</span><span style="color:#ae81ff">10</span>)<span style="color:#f92672">*</span><span style="color:#ae81ff">5</span>);
-  <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">Arr</span>.<span style="color:#a6e22e">length</span>;<span style="color:#a6e22e">i</span><span style="color:#f92672">++</span>){
-    <span style="color:#a6e22e">line</span>(<span style="color:#ae81ff">25</span><span style="color:#f92672">+</span>(<span style="color:#a6e22e">i</span><span style="color:#f92672">*</span><span style="color:#ae81ff">5</span>), <span style="color:#f92672">-</span><span style="color:#a6e22e">Arr</span>[<span style="color:#a6e22e">i</span>], <span style="color:#ae81ff">25</span><span style="color:#f92672">+</span>(<span style="color:#a6e22e">i</span><span style="color:#f92672">*</span><span style="color:#ae81ff">5</span>), <span style="color:#ae81ff">0</span>);
-  }
-
-}
-<span style="color:#75715e">// Shuffle my Array
-</span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">Shuffle</span>(){
-  <span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#39;Shuffle starting&#39;</span>);
-  <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">Arr</span>.<span style="color:#a6e22e">length</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span><span style="color:#f92672">--</span>){
-    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">tmp</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">Arr</span>[<span style="color:#a6e22e">i</span>];
-    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">ri</span> <span style="color:#f92672">=</span> Math.<span style="color:#a6e22e">round</span>(Math.<span style="color:#a6e22e">random</span>()<span style="color:#f92672">*</span><span style="color:#a6e22e">i</span>)
-    <span style="color:#a6e22e">Arr</span>[<span style="color:#a6e22e">i</span>]<span style="color:#f92672">=</span> <span style="color:#a6e22e">Arr</span>[<span style="color:#a6e22e">ri</span>];
-    <span style="color:#a6e22e">Arr</span>[<span style="color:#a6e22e">ri</span>]<span style="color:#f92672">=</span><span style="color:#a6e22e">tmp</span>;
-  } 
-}
-
-<span style="color:#75715e">//Swap my Numbers - https://www.kirupa.com/html5/swapping_items_array_js.htm
-</span><span style="color:#75715e">// Num1 &amp; 2 er kaldet index
-</span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">Swap</span>(<span style="color:#a6e22e">Input</span>, <span style="color:#a6e22e">Num1</span>, <span style="color:#a6e22e">Num2</span>){
- <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">tmp</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">Input</span>[<span style="color:#a6e22e">Num1</span>];
- <span style="color:#75715e">//Input[Num1] = Input[Num2]; //
-</span><span style="color:#75715e"></span> <span style="color:#a6e22e">Input</span>[<span style="color:#a6e22e">Num1</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">Input</span>[<span style="color:#a6e22e">Num2</span>];
- <span style="color:#a6e22e">Input</span>[<span style="color:#a6e22e">Num2</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">tmp</span>;
-}
-
-<span style="color:#75715e">// Sort my Array (Bubble Sort)
-</span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">BubbleSort</span>(){
-  <span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#39;Bubblesort starting&#39;</span>);
-  <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">Arr</span>.<span style="color:#a6e22e">Length</span>; <span style="color:#a6e22e">i</span><span style="color:#f92672">++</span>){
-    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">Start1</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">Arr</span>[<span style="color:#a6e22e">i</span>];
-    <span style="color:#75715e">//let b = i + 1;
-</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">Start2</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">Arr</span>[<span style="color:#a6e22e">i</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>];
-    <span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#39;d starting&#39;</span>);
-    <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">Start1</span> <span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">Start2</span>){
-      <span style="color:#a6e22e">Swap</span>(<span style="color:#a6e22e">Arr</span>, <span style="color:#a6e22e">i</span>, <span style="color:#a6e22e">i</span><span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>);
-    }
-<span style="color:#75715e">//
-</span><span style="color:#75715e"></span>
-
- }
-}
-
-<span style="color:#75715e">//Sorted my Array?
-</span><span style="color:#75715e">//stroke(0,255,0)
-</span><span style="color:#75715e"></span>
-<span style="color:#66d9ef">function</span> <span style="color:#a6e22e">setup</span>() {
-  <span style="color:#a6e22e">createCanvas</span>(<span style="color:#a6e22e">windowWidth</span>, <span style="color:#a6e22e">windowHeight</span>);
-  <span style="color:#a6e22e">background</span>(<span style="color:#ae81ff">220</span>);
-  <span style="color:#a6e22e">Shuffle</span>();
-  <span style="color:#a6e22e">BubbleSort</span>();
-  <span style="color:#a6e22e">Visualize</span>();
-} 
-</code></pre></div></p>
+<p>I sidste ende ser vores Hugo server (nogenlunde) sådan her ud.
+&ndash;&gt; Root Mappe
+    &ndash;&gt; themes
+    &ndash;&gt; posts
+    &ndash;&gt; content
+    &ndash;&gt; data
+    &ndash;&gt; resources
+    &ndash;&gt; PUBLIC
+    &ndash;&gt; static</p>
 
 
 <footer class=" footline" >
@@ -676,19 +612,19 @@ E[ASS]
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1573639554"></script>
-    <script src="/js/perfect-scrollbar.min.js?1573639554"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1573639554"></script>
-    <script src="/js/jquery.sticky.js?1573639554"></script>
-    <script src="/js/featherlight.min.js?1573639554"></script>
-    <script src="/js/highlight.pack.js?1573639554"></script>
+    <script src="/js/clipboard.min.js?1573715328"></script>
+    <script src="/js/perfect-scrollbar.min.js?1573715328"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1573715328"></script>
+    <script src="/js/jquery.sticky.js?1573715328"></script>
+    <script src="/js/featherlight.min.js?1573715328"></script>
+    <script src="/js/highlight.pack.js?1573715328"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1573639554"></script>
-    <script src="/js/learn.js?1573639554"></script>
-    <script src="/js/hugo-learn.js?1573639554"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1573715328"></script>
+    <script src="/js/learn.js?1573715328"></script>
+    <script src="/js/hugo-learn.js?1573715328"></script>
 
-    <link href="/mermaid/mermaid.css?1573639554" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1573639554"></script>
+    <link href="/mermaid/mermaid.css?1573715328" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1573715328"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
