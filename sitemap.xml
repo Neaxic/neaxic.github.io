@@ -13,7 +13,17 @@
   </url>
   
   <url>
+    <loc>http://example.org/algorithms/hannoi/</loc>
+    <lastmod>2019-11-05T11:06:55+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://example.org/scripts/hugo-git/</loc>
+    <lastmod>2019-11-05T11:06:55+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/scripts/flowchart/</loc>
     <lastmod>2019-11-05T11:06:55+01:00</lastmod>
   </url>
   
@@ -35,6 +45,11 @@
   <url>
     <loc>http://example.org/scripts/hugo-logo/</loc>
     <lastmod>2019-11-05T11:06:55+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/algorithms/p5-hannoi/</loc>
+    <priority>0</priority>
   </url>
   
   <url>

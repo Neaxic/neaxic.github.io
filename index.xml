@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>HANNOI ALGORITHM</title>
+      <link>http://example.org/algorithms/hannoi/</link>
+      <pubDate>Tue, 05 Nov 2019 11:06:55 +0100</pubDate>
+      
+      <guid>http://example.org/algorithms/hannoi/</guid>
+      <description>Kode SE LIVE DEMO HER function setup() { //move(&amp;#34;a&amp;#34;, &amp;#34;b&amp;#34;);  Hannoi(3, &amp;#34;grå&amp;#34;, &amp;#34;sort&amp;#34;, &amp;#34;gul&amp;#34;); } function move(a,b){ console.log(`Fra ${a.toUpperCase()}til ${b.toUpperCase()}`); } function movevia(f,v,t){ move(t,v); move(v,t); } function Hannoi(antal,a,b,c){ if (antal == 0){ return; } Hannoi(antal-1,a,c,b); move(a,c); Hannoi(antal-1,b,a,c); }</description>
+    </item>
+    
+    <item>
       <title>HUGO PUBLIC &amp; CONTENT GIT</title>
       <link>http://example.org/scripts/hugo-git/</link>
       <pubDate>Tue, 05 Nov 2019 11:06:55 +0100</pubDate>
@@ -19,6 +28,16 @@
       <guid>http://example.org/scripts/hugo-git/</guid>
       <description>Hvad er poiten? Poiten er altså at vi bruger GITHUB pages for at folk skal kunne se vores hjemmeside (uden vi betaler), hurtigt, nemt, og fra overalt.
 Hvordan fungere det? Vi vil gerne have vores HUGO site op på github, mest for os selv sådan vi kan få en fuld kopi af vores kildekode hvad end der sker - MEN, vi kunne også tænke os en live version af siden, en statisk version af samme hjemmeside.</description>
+    </item>
+    
+    <item>
+      <title>Mermaid flowchart</title>
+      <link>http://example.org/scripts/flowchart/</link>
+      <pubDate>Tue, 05 Nov 2019 11:06:55 +0100</pubDate>
+      
+      <guid>http://example.org/scripts/flowchart/</guid>
+      <description>Hvad er poiten? Hvordan gør man? Man har sådan set sat to repositories op, en til vores server, og en til vores statiske
+graph TD; A[ErDuVedAtDø?]; A --|Ja| B[Seriøst?]; A --|Nej| E[Tror du det er alvorligt?]; B --|Nej| E; B --|Ja| D[Ring 112] E --|Ja| F{Syntes du forkøelse er alvorligt?}; F --|Ja| G; E --|Nej| G[Ring til din mor];  </description>
     </item>
     
     <item>
@@ -47,6 +66,15 @@ Hvordan fungere det? Vi vil gerne have vores HUGO site op på github, mest for o
       <guid>http://example.org/scripts/hugo-logo/</guid>
       <description>Hvad er poiten? Poiten er altså at vi bruger GITHUB pages for at folk skal kunne se vores hjemmeside (uden vi betaler), hurtigt, nemt, og fra overalt.
 Hvordan fungere det? Vi vil gerne have vores HUGO site op på github, mest for os selv sådan vi kan få en fuld kopi af vores kildekode hvad end der sker - MEN, vi kunne også tænke os en live version af siden, en statisk version af samme hjemmeside.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/algorithms/p5-hannoi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/algorithms/p5-hannoi/</guid>
+      <description>  Hannoi Algorithm      body {padding: 0; margin: 0;} canvas {vertical-align: top;}      </description>
     </item>
     
     <item>

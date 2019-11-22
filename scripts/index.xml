@@ -22,6 +22,16 @@ Hvordan fungere det? Vi vil gerne have vores HUGO site op på github, mest for o
     </item>
     
     <item>
+      <title>Mermaid flowchart</title>
+      <link>http://example.org/scripts/flowchart/</link>
+      <pubDate>Tue, 05 Nov 2019 11:06:55 +0100</pubDate>
+      
+      <guid>http://example.org/scripts/flowchart/</guid>
+      <description>Hvad er poiten? Hvordan gør man? Man har sådan set sat to repositories op, en til vores server, og en til vores statiske
+graph TD; A[ErDuVedAtDø?]; A --|Ja| B[Seriøst?]; A --|Nej| E[Tror du det er alvorligt?]; B --|Nej| E; B --|Ja| D[Ring 112] E --|Ja| F{Syntes du forkøelse er alvorligt?}; F --|Ja| G; E --|Nej| G[Ring til din mor];  </description>
+    </item>
+    
+    <item>
       <title>SVG LOGO &amp; PNG FAVICON</title>
       <link>http://example.org/scripts/hugo-logo/</link>
       <pubDate>Tue, 05 Nov 2019 11:06:55 +0100</pubDate>
